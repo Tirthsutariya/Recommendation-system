@@ -61,6 +61,7 @@ recommended_images = sorted(similarities.items(), key=lambda item: item[1], reve
 
 # Display the top 5 recommended images
 print("Top 5 Recommended Images:")
+plt.figure(figsize=(15, 5))
 for idx, (filename, score) in enumerate(recommended_images):
     print(f"{idx + 1}: {filename} with similarity score {score:.2f}")
 
