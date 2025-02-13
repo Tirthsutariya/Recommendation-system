@@ -1,6 +1,4 @@
-# Recommendation-system
-
-## **Marble Image Similarity Matching**
+# **Marble Image Similarity Matching**
 
 ## **Overview**
 This project helps in finding similar **marble tile images** from a dataset based on an uploaded image. It extracts image features and compares them using ORB descriptors and color histograms, recommending the **top 5 most similar images**.
@@ -44,6 +42,29 @@ Run the script in your Python environment:
 ```sh
 python script.py
 ```
+
+## **Running the Project**
+1. **Clone the Repository**  
+   ```sh
+   git clone https://github.com/your-username/Marble-Similarity-Checker.git
+   cd Marble-Similarity-Checker
+   ```
+
+2. **Ensure Dependencies are Installed**  
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Place Your Input Image**  
+   - Add the marble image you want to search for in the `FIND THIS MARBLE/` folder.
+
+4. **Run the Script**  
+   ```sh
+   python script.py
+   ```
+
+5. **View Results**  
+   - The script will output the top 5 most similar images and display them using Matplotlib.
 
 ## **Input & Output**
 - **Input:** An image file located in `FIND THIS MARBLE/` folder.
